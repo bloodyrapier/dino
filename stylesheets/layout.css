@@ -29,6 +29,9 @@ body, html{
     background-color: #181A0F;
     text-align: center;
 }
+.museum__in{
+    text-wrap: nowrap;
+}
 .museum__item{
     color: white;
     font-family: Inter;
@@ -38,7 +41,6 @@ body, html{
     padding-bottom: 5vw;
     text-wrap: nowrap;
     padding: 5vw 5vw 5vw 5vw;
-
 }
 .container{
     display: flex;
