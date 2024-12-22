@@ -42,6 +42,10 @@
     .paws img{
         width: 370vw;
     }
+    .museum__in{
+    text-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    }
     .museum__item{
         font-size: 10vw;
         padding-top: 7vw;
