@@ -31,6 +31,7 @@ body, html{
 }
 .museum__in{
     text-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
 }
 .museum__item{
     color: white;
