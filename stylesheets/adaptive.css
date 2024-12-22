@@ -33,6 +33,7 @@
     .footer p{
         padding:7vw 0vw 6vw 0vw ;
         font-size: 5vw;
+        line-height: 6vw;
     }
 }
 @media (max-width: 414px) {
@@ -51,7 +52,7 @@
     }
     .block-2 p{
         font-size: 4vw;
-        padding: 4vw 1vw 1vw 1vw;
+        padding: 5vw 1vw 1vw 1vw;
     }
     .egg{
         height: 14vw;
@@ -59,5 +60,6 @@
     .footer p{
         padding:7.5vw 0vw 6vw 0vw ;
         font-size: 4vw;
+        line-height: 6vw;
     }
 }
