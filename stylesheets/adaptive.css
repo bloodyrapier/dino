@@ -1,0 +1,325 @@
+@media (max-width: 1440px) {
+    .col1 p{
+        font-size: 3.5vw;
+        padding-top: 3vw;
+        white-space: nowrap;
+        line-height: 4.5vw;
+    }
+    .col2 img{
+        width: 36vw;
+        padding-top: 26vw;
+        padding-left: 3vw;
+    }
+    .col3 img{
+        padding-top: 8vw;
+    }
+    .col_1 p{
+        font-size: 4.3vw;
+    }
+    .block3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        min-height: 90vw;
+    } 
+    .col__2 {
+        grid-area: 1 / 1 / 2 / 3;
+        position: absolute;
+    }
+    .col__2 p{
+        padding-right: 22vw;
+       }
+    .col__1 {
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    .col__1 img{
+        width: 46vw;
+        padding-top: 36vw;
+        padding-left: 4vw;
+    }
+    .col__3 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .col__3 img{
+        width: 30vw;
+        padding-top: 6vw;
+        padding-left: 10vw;
+    }
+}
+
+@media (min-width: 769px) {
+ 
+    .merch-mobile {
+        display: none; 
+    }
+    .block2-mobile{
+        display: none;
+    }
+    .block3-mobile{
+        display: none;
+    }
+    .col__4-mobile{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header h1{
+        font-size: 21vw;
+    }
+    .paws img{
+        width: 350vw;
+    }
+    .museum__item{
+        font-size: 10vw;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+    .block1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        min-height: 150vw;
+    }
+    .col1 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    .col1 p{
+        text-align: center;
+        font-size: 5.5vw;
+        line-height: 7vw;
+        padding-left: 0vw;
+    }
+    .col2 {
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    .col2 img{
+        width: 50vw;
+        padding: 100vw 0vw 0vw 0vw;
+        position: absolute;
+    }
+    .col3 {
+        grid-area: 1 / 1 / 2 / 3;
+        overflow-x: hidden;
+    }
+    .col3 img{
+        width: 66vw;
+        padding-top: 42vw;
+        position: absolute;
+        padding-left: 32vw;
+        overflow-x: hidden;
+    }
+    .col4{
+        padding-top: 84vw;
+    }
+    .col4 img{
+        width: 90vw;
+    }
+ 
+    .block2-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color:#837460;
+    }
+    .mobile-col_1{
+        padding-left: 5vw;
+    }
+    .mobile-col_1 img{
+        width: 94vw;
+        margin-top: -2vw;
+    }
+    .mobile-col_2{
+        padding-top: 2vw;
+        padding-bottom: 8vw;
+    }
+    .mobile-col_2 p{
+        color: white;
+        font-family: Inter;
+        font-size: 5.5vw;
+        font-weight: 700;
+        line-height: 5vw;
+        text-align: center;
+    }
+    .mobile-col_3 img{
+        width: 74vw;
+    }
+    .mobile-col_4{
+        margin-bottom: -6vw;
+    }
+    .mobile-col_4 img{
+        width: 100vw;
+    }
+    .block3-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #0C2A1B;
+    }
+    .mobile-col__1 img{
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        width: 52vw;
+    }
+    .mobile-col__2{
+        padding-bottom: 6vw;
+    }
+    .mobile-col__2 p{
+        color: white;
+        font-family: Inter;
+        font-size: 5vw;
+        font-weight: 700;
+        line-height: 5vw;
+        text-align: center;
+    }
+    .mobile-col__3 img{
+        width: 60vw;
+
+    }
+     .mobile-col__3{
+        padding-bottom: 6vw;
+    }
+    .block4{
+        min-height: 90vw;
+    }
+    .col__4-mobile{
+        z-index: 10;
+    }
+    .col__4-mobile p{
+        color: white;
+        font-family: Inter;
+        font-size: 5vw;
+        font-weight: 700;
+        white-space: nowrap;
+        line-height: 5.5vw;
+        padding-top: 10vw;
+        padding-left: 7vw;
+    }
+    .col__4{
+        display: none;
+    }
+    .col__5 {
+        padding-top: 20vw;
+        padding-left: 5vw;
+    }
+    .col__5 img{
+        width: 52vw; 
+        padding-left: 5vw;
+    }
+    .col__6 img{
+        width: 40vw;
+    }
+    .merch-mobile {
+        background-color: #d5c6af;
+        background-image: url('../images/bg.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .stock-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .merch-mobile img{
+        width: 74vw;
+        padding: 4vw 0 0 0;
+    }
+    .merch {
+        display: none; 
+    }
+    .block2{
+        display: none;
+    }
+    .block3{
+        display: none;
+    }
+    .stockpaws-mobile img{
+        width: 120vw;
+        padding-top: 1vw;
+        transform: scaleX(-1);
+    }
+    .footer-mobile-columns{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo-mobile img{
+        max-width: 24vw;
+        margin: 5vw 0vw 11vw 10vw;
+    }
+    .footer-mobile h2{
+        color:#0C2A1B;
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 3.5vw;
+        text-align: right;
+        margin: 9vw 10vw 8vw 2vw;
+    }
+}
+@media (min-width: 415px) {
+    .mobile-museum{
+        display: none;
+    }
+}
+@media (max-width: 414px) {
+    .header h1{
+        font-size: 21vw;
+    }
+    .paws img{
+        width: 370vw;
+    }
+    .col2 img{
+        width: 55vw;
+        padding: 100vw 0vw 0vw 0vw;
+        position: absolute;
+    }
+    .block4{
+        min-height: 120vw;
+    }
+    .col__4-mobile p{
+        font-size: 5.5vw;
+        font-weight: 700;
+        line-height: 6vw;
+    }
+    .col__5 {
+        padding-top: 48vw;
+        padding-left: 5vw;
+    }
+    .col__5 img{
+        width: 52vw; 
+        padding-left: 5vw;
+    }
+    .col__6 img{
+        width: 48vw;
+    }
+    .museum{
+        display: none;
+    }
+    .mobile-museum{
+        background-color: #0C2A1B;
+        text-align: center;
+    }
+    .mobile-museum_in{
+        white-space: nowrap;
+        display: flex;
+        width: fit-content;
+    }
+    .mobile-museum__item{
+        color: white;
+        font-family: Inter;
+        font-size: 7vw;
+        font-weight: 700;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        white-space: nowrap;
+        padding: 3vw 3vw 3vw 3vw;
+    }
+}
